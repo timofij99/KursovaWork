@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма доставки</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Форма доставки</h2>
+
+  <form>
+    <label for="postcode">Поштовий індекс:</label><br>
+    <input type="text" id="postcode" name="postcode" placeholder="Наприклад, 02000" required><br>
+
+    <label for="phone">Телефон:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="+380..." required><br>
+
+    <label for="house">Номер будинку:</label><br>
+    <input type="text" id="house" name="house" placeholder="Наприклад, 24А" required><br>
+
+    <button type="submit">Надіслати</button>
+  </form>
+
+</body>
+</html>
+<form>
+  <label for="postcode">Поштовий індекс:</label><br>
+  <input type="text" id="postcode" name="postcode" placeholder="Наприклад, 02000" required><br><br>
+
+  <label for="phone">Телефон:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="+380..." required><br><br>
+
+  <label for="house">Номер будинку:</label><br>
+  <input type="text" id="house" name="house" placeholder="Наприклад, 24А" required><br><br>
+
+  <button type="submit">Надіслати</button>
+</form>
+ 

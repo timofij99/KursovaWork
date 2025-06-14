@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffdfd;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(133, 5, 5, 0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  color: #555;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.buy-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #218838;
+  transform: scale(1.03);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.ukraine-button {
+  background-color: #0057B7; /* Синій колір прапора */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.ukraine-button:hover {
+  background-color: #FFD700; /* Жовтий колір прапора при наведенні */
+  color: black;
+}
+
+@media (max-width: 767px)
+ { (min-width: 768px) }
+
+@media (min-width: 768px) and (max-width: 991px)
+ {(max-width: 767px) }
+
+@media (min-width: 992px)
+ {(min-width: 480px) and (max-width: 1024px) }
+

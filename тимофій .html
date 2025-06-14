@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Доставка з України</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .ukraine-button {
+      display: inline-block;
+      background-color: #0057B7; /* Синій колір */
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 10px;
+      margin: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .ukraine-button:hover {
+      background-color: #FFD700; /* Жовтий */
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Обери дію</h1>
+
+  <!-- Кнопка 1 -->
+  <a href="file:///C:/Webskill/Students/%D0%A2%D0%B8%D0%BC%D0%BE%D1%84%D1%96%D0%B9/Kursova/checkout.html" class="ukraine-button" target="_blank">
+    Привезти з України
+  </a>
+
+  <!-- Кнопка 2 -->
+  <a href= file:///C:/Webskill/Students/%D0%A2%D0%B8%D0%BC%D0%BE%D1%84%D1%96%D0%B9/Kursova/checkout.html target="_blank">
+    Відвезти з України
+  </a>
+
+</body>
+</html>
+<a href="file:///C:/Webskill/Students/%D0%A2%D0%B8%D0%BC%D0%BE%D1%84%D1%96%D0%B9/Kursova/checkout.html" target="_blank">
+  <button>Купити</button>
+</a>
+<h2>Оплата</h2>
+<p>Оберіть метод оплати:</p>
+<ul>
+  <li>Оплата картою</li>
+  <li>Оплата готівкою</li>
+</ul>
+<button onclick="window.location.href='https://інший-сайт.com/оплата'">Купити</button>
+<form method="POST" action="https://www.liqpay.ua/api/3/checkout" accept-charset="utf-8">
+  <input type="hidden" name="data" value="(тут буде кодоване значення)">
+  <input type="hidden" name="signature" value="(тут буде підпис)">
+  <input type="image" src="https://static.liqpay.ua/buttons/p1ru.radius.png" />
+</form>
+
